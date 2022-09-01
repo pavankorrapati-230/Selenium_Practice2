@@ -32,7 +32,7 @@ public class TC_001 {
 	   driver.findElement(By.name("txtPassword")).sendKeys("admin");
 	  //LOGIN 2.LOGIN FUNCTION WITH ENTER BUTTON 
 	   Robot r=new Robot();
-	   r.keyPress(KeyEvent.VK_TAB);
+	   r.keyPress(KeyEvent.VK_TAB);//Virtual_KeyBoard
 	   r.keyRelease(KeyEvent.VK_TAB);
 	   r.keyPress(KeyEvent.VK_ENTER);
 	   r.keyRelease(KeyEvent.VK_ENTER);
