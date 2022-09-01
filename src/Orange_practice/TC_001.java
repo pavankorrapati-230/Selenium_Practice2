@@ -26,7 +26,7 @@ public class TC_001 {
 		   System.out.println(driver.getTitle());
 	   }
 	   
-	   
+//git	   
 //LOGIN 1.USERNAME&PASSWORD
 	   driver.findElement(By.name("txtUserName")).sendKeys("admin");
 	   driver.findElement(By.name("txtPassword")).sendKeys("admin");
